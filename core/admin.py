@@ -5,7 +5,6 @@ from core.models import Examination, Patient, ExamType, Doctor
 class ExaminationAdmin(admin.ModelAdmin):
     list_filter = ('altered',)
     readonly_fields = ["altered"]
-    list_display = ["id"]
 
 admin.site.register(Examination, ExaminationAdmin)
 admin.site.register(Patient)

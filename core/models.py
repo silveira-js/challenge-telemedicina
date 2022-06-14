@@ -45,7 +45,7 @@ class Examination(models.Model):
     altered = models.BooleanField(null=True, blank=True)
 
     def __str__(self):
-        return f"{self.patient} - {self.exam_type}"
+        return f"{self.patient.last_name}, {self.patient.first_name} - {self.exam_type.name}"
 
     def clean(self):
         formatted_report = format_text_report(self.report)
