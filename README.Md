@@ -5,7 +5,7 @@
 The project is developed with Django, Django Rest Framework, Postgres and it was set up in a docker/docker-compose enviroment with the help of a make file to run the project.
 For the developer to see and manage the data, Django Admin can be used, for better usage, it was added a filter for the exams by the altered status.
 
-The API providse routes of patients, doctors, exam-types and examinations. All routes requires authentication. Once a user is added in admin, it is possible to generate the token authorization by the authenticaion routes.
+The API provides routes of patients, doctors, exam-types and examinations. All routes requires authentication. Once a user is added in admin, it is possible to generate the token authorization by the authenticaion routes.
 
 The project also has implemented flake8 linter for the PR's and unit tests.
 
