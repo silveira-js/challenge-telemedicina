@@ -24,8 +24,7 @@ class TokenFactory(factory.django.DjangoModelFactory):
 
 class ExamTypeFactory(factory.django.DjangoModelFactory):
     name = factory.Faker('pystr')
-    code = factory.Faker('pystr')
-
+    code = factory.fuzzy.FuzzyText(length=12)
     class Meta:
         model = ExamType
 
