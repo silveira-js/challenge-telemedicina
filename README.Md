@@ -56,7 +56,7 @@ The 'make setup' command is responsible to build the images, run the migration, 
 
 
 
-### You must add token authorization to the request:  
+#### You must add token authorization to the request:  
 
 
 ```
