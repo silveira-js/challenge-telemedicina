@@ -28,6 +28,7 @@ class ExaminationSerializer(serializers.ModelSerializer):
     class Meta:
         model = Examination
         fields = [
+            'id',
             'patient', 
             'doctor', 
             'exam_type',

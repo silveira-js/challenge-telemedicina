@@ -73,7 +73,7 @@ The 'make setup' command is responsible to build the images, run the migration, 
 | GET | ```http://localhost:8000/api/v1/examinations?altered=false```|List not altered examinations|
 | POST      |```http://localhost:8000/api/v1/examinations/```| Add an examination|
 | DELETE | ```http://localhost:8000/api/v1/examinations/<id>```| Delete an examination| 
-| UPDATE | ```http://localhost:8000/api/v1/examinations/<id>```| Update an examination|
+| PUT/PATCH | ```http://localhost:8000/api/v1/examinations/<id>```| Update an examination|
 
 
 
@@ -84,7 +84,7 @@ The 'make setup' command is responsible to build the images, run the migration, 
 | GET | ```http://localhost:8000/api/v1/patients/<id>```| Retrieve a patient|
 | POST      |```http://localhost:8000/api/v1/patients/```| Add a patient|
 | DELETE | ```http://localhost:8000/api/v1/patients/<id>```| Delete a patient| 
-| UPDATE | ```http://localhost:8000/api/v1/patients/<id>```| Update a patient|
+| PUT/PATCH | ```http://localhost:8000/api/v1/patients/<id>```| Update a patient|
 
 ### Doctors Endpoints:
 | METHOD      | ENDPOINT | DESCRIPTION |
@@ -93,7 +93,7 @@ The 'make setup' command is responsible to build the images, run the migration, 
 | GET | ```http://localhost:8000/api/v1/doctors/<id>```| Retrieve a doctor|
 | POST      |```http://localhost:8000/api/v1/doctors/```| Add a doctor|
 | DELETE | ```http://localhost:8000/api/v1/doctors/<id>```| Delete a doctor| 
-| UPDATE | ```http://localhost:8000/api/v1/doctors/<id>```| Update a doctor|
+| PUT/PATCH | ```http://localhost:8000/api/v1/doctors/<id>```| Update a doctor|
 
 ### Exam Type Endpoints:
 | METHOD      | ENDPOINT | DESCRIPTION |
@@ -102,4 +102,4 @@ The 'make setup' command is responsible to build the images, run the migration, 
 | GET | ```http://localhost:8000/api/v1/exam-types/<id>```| Retrieve a exam type|
 | POST      |```http://localhost:8000/api/v1/exam-types/```| Add a exam type|
 | DELETE | ```http://localhost:8000/api/v1/exam-types/<id>```| Delete a exam type| 
-| UPDATE | ```http://localhost:8000/api/v1/exam-types/<id>```| Update a exam type|
+| PUT/PATCH | ```http://localhost:8000/api/v1/exam-types/<id>```| Update a exam type|
